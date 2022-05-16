@@ -1,2 +1,2 @@
 # kursy-python
-Kursy Python
+Kursy Python by El Szafrano.
