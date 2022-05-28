@@ -16,3 +16,8 @@ else:
 
 print(tekst.upper())
 print(tekst.lower())
+
+a=input("Podaj dowolny tekst: ")
+b=input("Podaj dowolną literę: ")
+ile=a.count(b)
+print("W tekście",a,"litera",b,"występuje",ile,"razy.")
