@@ -16,6 +16,7 @@ else:
 
 print(tekst.upper())
 print(tekst.lower())
+print(tekst.title())
 
 a=input("Podaj dowolny tekst: ")
 b=input("Podaj dowolną literę: ")
