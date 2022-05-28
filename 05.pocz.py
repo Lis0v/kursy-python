@@ -14,3 +14,4 @@ czy i<koniec+1  5<11 TAK
 suma=suma+i     suma=0+5=5
 i=6
 czy 6<11 TAK suma=5+6=11
+'''
