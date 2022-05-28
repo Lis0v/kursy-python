@@ -13,3 +13,6 @@ if spr==spr[::-1]:
     print("Wyraz jest palindromem")
 else:
     print("Wyraz nie jest palindromem")
+
+print(tekst.upper())
+print(tekst.lower())
