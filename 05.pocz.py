@@ -4,7 +4,7 @@ krok=int(input("Podaj wartość kroku: "))
 suma=0
 for i in range(poczatek,koniec+1,krok):
     suma+=i #suma=suma+i
-print("Suma liczb z przedziału od",poczatek,"do",koniec,"wynosi",suma)
+print("Suma liczb z przedziału od",poczatek,"do",koniec,"(krok =",krok,") wynosi",suma)
 
 '''
 poczatek=5
