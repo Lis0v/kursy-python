@@ -1,4 +1,6 @@
-zm1=10
-zm2="Dowolny tekst"
-zm3=[34,8,2,-98]
-def funkcja(liczba,1)
+zm1=int(input("Podaj zmienna 1:"))
+zm2=int(input("Podaj zmienna 2:"))
+def dodawanie(liczba1,liczba2):
+    print(liczba1+liczba2)
+    return
+dodawanie(zm1,zm2)
