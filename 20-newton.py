@@ -1,5 +1,5 @@
-zm1=int(input("Podaj zmienna n:"))
-zm2=int(input("Podaj zmienna k:"))
+zm1=int(input("Podaj liczbe wszystkich kul:"))
+zm2=int(input("Podaj ilosc kul, ktore losujemy:"))
 def newtona(liczba1,liczba2):
     if liczba2 in(0,liczba1):
         return 1
