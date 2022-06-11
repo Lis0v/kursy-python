@@ -19,3 +19,7 @@ print(len(slownik))
 print(slownik.items())
 print(slownik.keys())
 print(slownik.values())
+slownik1={"a":50}
+print(slownik1)
+slownik.update(slownik1)
+print(slownik)
