@@ -23,3 +23,25 @@ slownik1={"a":50}
 print(slownik1)
 slownik.update(slownik1)
 print(slownik)
+miesiac=["Styczeń","Luty","Marzec","Lipiec"]
+liczby=[1,2,3,7]
+slownik2=dict(zip(miesiac,liczby))
+print(slownik2)
+print(slownik2["Lipiec"])
+print(slownik2.get("Lipiec"))
+for i in slownik2:
+    print(i)
+if ("Lipiec",7) in slownik2.items():
+    print("Klucz i wartość istnieje w słowniku.")
+else:
+    print("Klucza i wartości nie ma w słowniku.")
+
+if 7 in slownik2.values():
+    print("Wartość istnieje w słowniku.")
+else:
+    print("Wartości nie ma w słowniku.")
+print(slownik2)
+slownik3=slownik2.copy()
+slownik4=slownik2
+print(slownik3)
+print(slownik4)
