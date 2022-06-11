@@ -7,5 +7,7 @@ for i in krotka1:
 print("Krotka o nazwie krotka1 jest",len(krotka1),"elementowa")
 print("Odwracamy elementy krotki")
 print(krotka1[::-1])
-krotka1.reverse()
 print(krotka1)
+print(krotka1[3:6])
+krotka2=krotka+krotka1
+print(krotka2)
