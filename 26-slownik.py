@@ -45,3 +45,6 @@ slownik3=slownik2.copy()
 slownik4=slownik2
 print(slownik3)
 print(slownik4)
+slownik2.clear()
+print(slownik3)
+print(slownik4)
