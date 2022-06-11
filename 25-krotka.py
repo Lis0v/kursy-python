@@ -12,3 +12,8 @@ print(krotka1[3:6])
 krotka2=krotka+krotka1
 print(krotka2)
 print("Suma",len(krotka1),"elementów wynosi:",sum(krotka1))
+auto1=('Fiat',2020,1997) #parametry samochodu Nazwa,rocznik,pojemność
+(nazwa,rocznik,pojemnosc)=auto1
+print(nazwa)
+print(rocznik)
+print(pojemnosc)
