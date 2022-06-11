@@ -12,3 +12,10 @@ print(slownik)
 slownik["klucz2"]=slownik["klucz2"]+" i psa."
 slownik["klucz3"]=slownik["klucz3"]+5
 print(slownik)
+# slownik.pop("klucz3") # del slownik["klucz3"]
+# slownik.clear() - czyszczenie slownika
+print(slownik)
+print(len(slownik))
+print(slownik.items())
+print(slownik.keys())
+print(slownik.values())
