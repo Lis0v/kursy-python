@@ -11,3 +11,4 @@ print(krotka1)
 print(krotka1[3:6])
 krotka2=krotka+krotka1
 print(krotka2)
+print("Suma",len(krotka1),"elementów wynosi:",sum(krotka1))
