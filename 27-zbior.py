@@ -1,0 +1,5 @@
+zbior1=set("Ala ma kota")
+zbior2=set(" i psa.")
+print(zbior1)
+print(zbior2)
+print(zbior1&zbior2)
